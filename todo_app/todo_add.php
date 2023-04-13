@@ -1,5 +1,5 @@
 <?php
-require_once("functions.php")
+require_once("functions.php");
 
 if (count($argv) != 2) {
     die(MESSAGE_TASK_EMPTY . PHP_EOL);
